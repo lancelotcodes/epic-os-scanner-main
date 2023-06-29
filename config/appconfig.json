@@ -1,0 +1,21 @@
+{
+  "device_parameters": [
+    {
+      "url": "https://prod-epic-os-api.azurewebsites.net",
+      "key": "4C2F97C5A36D58DB1693DBDDCAFAF",
+      "device_list_path": "/home/pi/actions-runner/_work/epic-os-scanner/epic-os-scanner/device_list/device_list.json",
+      "save_list_path": "/home/pi/actions-runner/_work/epic-os-scanner/epic-os-scanner/device_list/device_list.json",
+      "log_file_path": "/home/pi/actions-runner/_work/epic-os-scanner/epic-os-scanner/logs/app-logs.log"
+    }
+  ],
+  "frequency": {
+    "scan_frequency": 10,
+    "update_list": 600,
+    "send_to_cloud": 120,
+    "reset_ble_attempts": 120,
+    "ble_limit_failures": 10,
+    "temp_send_to_cloud": 300,
+    "config_set_frequency": 300,
+    "adapter_type": 1
+  }
+}
